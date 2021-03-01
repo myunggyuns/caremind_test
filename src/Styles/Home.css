@@ -1,0 +1,27 @@
+.home-root {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-root ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.home-root span {
+  color: rgb(47, 194, 47);
+}
+
+.explain-web {
+  margin-top: 15px;
+}

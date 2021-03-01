@@ -1,0 +1,35 @@
+.form-root {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.text {
+  text-align: center;
+}
+
+.input-box {
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.submit-btn {
+  width: 185px;
+  margin: 20px 0;
+}
+
+.input-email,
+.input-password {
+  margin-top: 8px;
+}
+
+.input-email-title,
+.input-password-title {
+  margin-top: 8px;
+}

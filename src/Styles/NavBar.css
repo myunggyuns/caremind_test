@@ -1,0 +1,94 @@
+.root {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e7e7e7;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  line-height: 50px;
+  margin-left: 1rem;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #a5a5a5;
+  cursor: pointer;
+}
+
+.btn-open {
+  background-color: #a5a5a5;
+}
+
+.open {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+}
+
+.open li {
+  color: #0b0b61;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: block;
+  }
+  .open {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 25px;
+    height: auto;
+  }
+  .open li {
+    height: 25px;
+    border: 1px solid #a5a5a5;
+    margin: 0;
+    background-color: gray;
+  }
+  .logo {
+    margin: 0;
+  }
+  .button {
+    margin: 0;
+  }
+}
+
+.close {
+  display: none;
+}

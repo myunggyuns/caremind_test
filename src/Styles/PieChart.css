@@ -1,0 +1,7 @@
+.piechart-root {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

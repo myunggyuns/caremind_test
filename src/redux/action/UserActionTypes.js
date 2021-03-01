@@ -1,0 +1,4 @@
+export const USER_SIGN_IN = "USER_SIGN_IN";
+export const ENTER_EMAIL = "ENTER_EMAIL";
+export const ENTER_PASSWORD = "ENTER_PASSWORD";
+export const CLEAR_INPUT_VALUE = "CLEAR_INPUT_VALUE";
